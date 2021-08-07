@@ -27,4 +27,4 @@ if __name__ == '__main__':
             tails += 1
     head_flips = (heads/coin_flips)*100
     tail_flips = (tails/coin_flips)*100
-    print("Heads vs Tail percentage is: {}, {}".format(head_flips, tail_flips))
+    print(f"Heads vs Tail percentage is: {head_flips}, {tail_flips}")
